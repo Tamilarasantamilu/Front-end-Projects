@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technophobia.net</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar-->
+    <nav class="navbar">
+        <h1 class="logo">TechNOphobia</h1>
+    
+    <ul class="nav-links">
+        <li class="active"> <a href="#">HOME</a> </li>
+        <li> <a href="#">WORKS</a> </li>
+        <li> <a href="#">DESIGNS</a> </li>
+        <li> <a href="#">ABOUT</a> </li>
+        <li  class="ctn"> <a href="#">Contact</a></li>
+
+    </ul>
+    <img src="./menu-btn.png" alt="" class="menu-btn">
+</nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the beauty of code</h2>
+            <div class="line"></div>
+            <h1>WELCOME TO OUR SITE </h1>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+         <h1>Coding Journey</h1>
+         <div class="line"></div> </div>
+
+         <div class="row">
+            <div class="col">
+                <img src="up1.jpg" width="300px" alt="" >
+                <h4>Tools for work</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias quod modi nobis voluptates impedit.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col" >
+                <img src="up2.jpg" width="300pxf" alt="">
+                <h4>Our working principle</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias quod modi nobis voluptates impedit.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+         </div>
+
+     </section>
+
+
+    <script>
+
+         const menuBtn =document.querySelector('.menu-btn')
+         const navlinks = document.querySelector('.nav-links')
+
+         menuBtn.addEventListener('click',()=>
+         {
+            navlinks.classList.toggle('mobile-menu')
+
+         })
+
+
+    </script>
+    
+</body>
+</html>
